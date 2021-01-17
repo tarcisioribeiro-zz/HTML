@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<script>
+			function novopreco(){
+			var precoatual
+			var novopreco
+			precoatual = document.getElementById("precoagora").value;
+			if (precoatual =< 50)
+			novopreco = precoatual*1.05
+			if (precoatual >= 50 <= 100)
+			novopreco = precoatual*1.1
+			if (precoatual > 100)
+			novopreco = precoatual*1.15
+			}
+		</script>
+	</head>
+	<body>
+		<p>
+			Preço do produto: <input type="number" id="precoagora"/>
+		</p>
+		<p>
+			<button onclick="novopreco()"> Preço com percentual de aumento </button>
+		</p>
+	</body>
+</html>
