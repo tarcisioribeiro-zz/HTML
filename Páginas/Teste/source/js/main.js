@@ -1,1 +1,3 @@
-alert('Bem vindo!');
+function Ola() {
+    alert('Bem vindo!');
+}
